@@ -8,3 +8,13 @@ a try for modbus .
 # 文档博客
 
 https://www.cnblogs.com/ioufev/p/10831289.html
+
+#  模拟器设置
+
+![img_1.png](img_1.png)
+
+![img.png](img.png)
+
+
+
+

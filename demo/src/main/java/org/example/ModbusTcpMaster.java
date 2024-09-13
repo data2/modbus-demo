@@ -32,9 +32,9 @@ public class ModbusTcpMaster {
         master = modbusFactory.createTcpMaster(params, true);
         try {
             //设置超时时间
-            master.setTimeout(500);
+            master.setTimeout(5000);
             //设置重连次数
-            master.setRetries(2);
+            master.setRetries(10);
             //初始化
             master.init();
         } catch (ModbusInitException e) {
